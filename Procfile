@@ -1,1 +1,2 @@
-﻿web: java -jar build/libs/*-SNAPSHOT.jar
+﻿release: ./gradlew build
+web: java -jar build/libs/backendproductos-0.0.1-SNAPSHOT.jar
