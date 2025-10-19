@@ -1,2 +1,1 @@
-﻿release: ./gradlew clean build -x test
-web: java -jar build/libs/*.jar
+﻿web: java -jar build/libs/*-SNAPSHOT.jar
